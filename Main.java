@@ -27,11 +27,11 @@ public class Main {
                 else if (op == 4) {
                     System.out.print("Qtd para remover: ");
                     int qtdRemover = sc.nextInt();
-                    p.removerEstoque(qtdRemover); // Agora ele usa o valor que você digitar
+                    p.removerEstoque(qtdRemover); 
                 }
             } catch (Exception e) {
                 System.out.println("ERRO: Digite apenas numeros no preco/quantidade!");
-                sc.nextLine(); // Limpa o erro para o menu voltar a funcionar
+                sc.nextLine();
                 op = -1; 
             }
         }
